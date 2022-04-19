@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Saç ekimi, burun estetiği."> <!-- ürünler hakkında bilgi. -->
+    <meta name="description" content="Bu b ir estetik kliniği sitesidir."><!-- sitenin açıklaması -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/Google-favicon-2015.png" type="image/png">
+    <!-- bu sitenin ismi çıkan yerin başına resim ekler -->
+    <title>18 Nisan Ders</title>
+</head>
+<body>
+​
+    <!-- h$*6 h1 den h6 ya kadar bütün başlıkları sıralar-->
+    <!-- ctrl+shift+alt+alt_ok tuşu ile çoklu satır seçimi yapabiliyoruz.-->
+    <h1>Lorem, ipsum.</h1>
+    <h2>Lorem, ipsum.</h2>
+    <h3>Lorem, ipsum.</h3>
+    <h4>Lorem, ipsum.</h4>
+    <h5>Lorem, ipsum.</h5>
+    <h6>Lorem, ipsum.</h6>
+​
+    <!-- Paragraf -->
+    <!-- Shift+Alt+alt_ok tuşları ile seçili olanı alta kopyalar. -->
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A ducimus illum ut? Sunt veritatis quibusdam nostrum dolore mollitia sit illum atque molestias a, ullam obcaecati iure iste. Corrupti, aliquam ab.</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A ducimus illum ut? Sunt veritatis quibusdam nostrum dolore mollitia sit illum atque molestias a, ullam obcaecati iure iste. Corrupti, aliquam ab.</p>
+         
+    <!-- inline-block element: inline element sadece bulunduğu yeri kaplar. Ama block elementler bütün satırı kaplar. a etiketleri inline'dır. yazdıkça yan yana yazar ama p etiketi alt satırdan devam eder. div h1 de block elementtir. -->
+    <a href="">Clarusway</a>
+    <a href="">Clarusway</a>
+    <p>Clarusway. p block elementtir.</p>
+​
+<!-- hr=> bir çizgi çizer -->
+​
+    <!-- Biçimlendirme -->
+    <!-- Etiketler iç içe yazılabilir. -->
+    <!-- b ve strong=> bold yapıyor.Strong tarayıca önemli olduğunu vurgular.SEO için önemli. -->
+    <!-- i ve em=> italik yapar. em önemli olduğunu vurgular. -->
+    <!-- u ve ins => altını çizer. ins yeni fiyatı bu gibi. -->
+    <!-- del=> üstünü çizer -->
+    <!-- mark=> default olarak sarı renkli işaretler. -->
+    <!-- sup=> X2 2yi kare olarak yazmamızı sağlar -->
+    <!-- sub => sub'un tersi alt karakter olarak yazar. -->
+​
+    <p>Lorem, ipsum <b>dolor sit</b>  amet consectetur adipisicing.</p>
+    <p>Lorem, ipsum <strong>dolor sit</strong>  amet consectetur adipisicing.</p>
+    <p>Lorem  <i>ipsum dolor</i> <em>sit amet</em> .</p>
+    <p>Lorem ipsum <u>dolor</u>  sit <ins>amet</ins> .</p>
+    <p>Bunun fiyatı <del>500$</del>  yerine 300$</p>
+    <p>Lorem ipsum dolor <mark>sit amet.</mark> </p>
+    <p>X <sup>2</sup> H<sub>2</sub>O</p>
+​
+    <!-- w3schools.com => bu işin anayasası !!!! -->
+​
+    <!-- List -->
+    <!-- Sırasız Listeler -->
+    <!-- ul>li*3 ul etiketi içine 3 li koyar. -->
+    <!-- style="list-style-type: none;" => baştaki noktaları kaldırır. değiştiriledebilir. -->
+    <ul style="list-style-type: none;">
+        <li>Elma</li>
+        <li>Armut</li>
+        <li>Karpuz</li>
+    </ul>
+    <!-- Sıralı Listeler -->
+    <!-- start => başlangıç değeri verilebilir. type => ne işe başlasın. Listelerde iç içe kullanılabilir. -->
+    <ol>
+        <li>Elma</li>
+        <li>Armut</li>
+        <li>Karpuz</li>
+    </ol>
+    <!-- Tanımlama Listeleri -->
+    <!-- dt=> tanımlanacak dd => açıklama -->
+    <dl>
+        <dt>Ferrari</dt>
+        <dd>En güzel arabadır.</dd>
+        <dt>Karpuz</dt>
+        <dd>Yazın peynirle iyi gider</dd>
+    </dl>
+​
+    
+    <!--Resimler-->
+    <!-- img inline elementdir. -->
+    <img src="link/veya resimin bulunduğu yol" alt="Tarayıcı tarafından tanımlayıcı. Fotoğraf yüklenmezse bu yazar.SEO için de önemlidir.">
+​
+    <!-- Tablolar -->
+    <!-- tr içerisinde satırlar oluşturulur. th başlık için td değerler için. -->
+    <!-- table etiketi içerisinde tablo oluşturulur. thead başlıklar için kalın yazar. tbody değerler için. -->
+    <!-- Satırdaki kutuların birleştirilmesine "Colspan", Sütundaki kutuların birleştirilmesine "Rowspan", Sütundakidenir. -->
+    <!-- caption => tabloya başlık eklemek için -->
+    
+    <table border="1">
+        <caption>Bu bir ad-soyad tablosudur.</caption>
+        <thead>
+            <tr>
+                <th>isim</th>
+                <th>soyisim</th>
+                <th>yaş</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ali</td>
+                <td>Yılmaz</td>
+                <td rowspan="2">25</td>
+            </tr>
+            <tr>
+                <td>Veli</td>
+                <td>Çelik</td>
+                <!-- <td>45</td> -->
+            </tr>
+        </tbody>
+​
+    </table>
+​
+    <!-- Linkler -->
+    <p id="paragraf1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente id provident soluta impedit praesentium iure, cupiditate natus sint, similique laudantium enim nobis aliquid culpa cumque velit molestias quasi saepe officiis.</p>
+    <p id="paragraf2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente id provident soluta impedit praesentium iure, cupiditate natus sint, similique laudantium enim nobis aliquid culpa cumque velit molestias quasi saepe officiis.</p>
+    <!-- href => hyper reference. Link yazılır. Site içi dolaşım için de kullanılabilir.Site içi kullanım için gidilmek istenen lokasyonun id veya class href'e yazılır. -->
+    <!-- target => sayfa nasıl açılsın. _blank yeni sekmede açar. -->
+    <!-- a içine img yazılırsa linkli fotoğraft oluşturulur. -->
+    <a href="link">Buraya yazılanın üstüne tıklanabilir.</a>
+    <a href="https://google.com" target="_blank">Google'a git</a>
+    <br>
+    <a href="https://clarusway.com" target="_blank"><img src="https://picsum.photos/id/684/600/400" alt="" width="250px"></a>
+​
+    
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente id provident soluta impedit praesentium iure, cupiditate natus sint, similique laudantium enim nobis aliquid culpa cumque velit molestias quasi saepe officiis.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente id provident soluta impedit praesentium iure, cupiditate natus sint, similique laudantium enim nobis aliquid culpa cumque velit molestias quasi saepe officiis.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente id provident soluta impedit praesentium iure, cupiditate natus sint, similique laudantium enim nobis aliquid culpa cumque velit molestias quasi saepe officiis.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente id provident soluta impedit praesentium iure, cupiditate natus sint, similique laudantium enim nobis aliquid culpa cumque velit molestias quasi saepe officiis.</p>
+    <a href="#paragraf1">başa dön</a>
+    <br>
+    <a href="#paragraf2">ikinci paragrafa git</a>
+    <br>
+    <!-- Dosya indirme -->
+    <a href="tarayıcının_açamayacağı_dosya_linki_rar_olabilir">Dosyayı indir</a>
+    <a href="dosya_yolu">Tablolara git.(Başka bir dosyaya gitmek için)</a>
+​
+​
+    <!-- div=> conteiner olarak düzenleme yapmak için kullanılır. block elementtir. -->
+    <!-- span => inline elementtir. inline düzenleme yapmak için gruplanacaklar span içerisine alınır. -->
+    <img src="https://files.slack.com/files-tmb/T03AUTQTNEN-F03BUJEM71T-0c231352a3/image_720.png" alt="">
+    <!-- üstteki resim span/div farkı -->
+    <div>
+        <h1>Lorem, ipsum.</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias reiciendis dolorum mollitia voluptas odit. Quas non corrupti quisquam eligendi quo, dolores deserunt reprehenderit perferendis? Nemo ut sit fugiat necessitatibus placeat?</p>
+    </div>
+​
+    <!-- iframe -->
+    <!-- Sayfa içerisinde başka bir siteyi göstermek için kullanılır. -->
+    <!-- Youtube'den video'da alınabilir. video'ya sağ tıklayıp yerleştirme kodunu kopyala tıklayarak alınabilir.-->
+    <iframe src="https://bbc.com" frameborder="5" width="100%" height="300px"></iframe>
+    <!-- -->
+​
+​
+</body>
+</html>
