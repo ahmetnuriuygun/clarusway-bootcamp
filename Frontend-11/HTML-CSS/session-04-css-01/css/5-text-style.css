@@ -1,0 +1,50 @@
+*{
+    font-family:sans-serif;
+   }
+   
+   
+   h1{
+   
+    color:rgb(199, 14, 224);
+   /* color:hsl(297, 100%, 53%); */
+   
+   /* text-decoration:line-through;
+   text-decoration:overline;
+   text-decoration:underline;
+   text-decoration-style: dotted;
+   text-decoration-style:wavy;
+   text-decoration-style:dashed;
+   text-decoration-color: green; */
+   
+   /*? toplu stil */
+   
+   text-decoration: blue underline overline wavy 8px;
+   
+   /* text-transform: capitalize; */
+   /* text-transform: lowercase; */
+   text-transform: uppercase;
+   text-align: center;
+   
+   word-spacing:25px;
+   
+   letter-spacing:5px;
+   
+   }
+
+p{
+    text-indent: 20px;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    line-height: 30px;
+}
+
+li{
+    background-color: yellow;
+}
+.tatli{
+    list-style-position: inside;
+    list-style-type: "🍅";
+}
+h3{
+    text-align: end;
+}
