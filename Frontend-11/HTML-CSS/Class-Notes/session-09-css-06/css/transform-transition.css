@@ -1,0 +1,83 @@
+.yazi{
+
+ text-align: center;
+ width:300px;
+ margin:2rem auto;
+ font-size: 2rem;
+}
+
+/******************ROTATE******************/
+
+.yazi1{
+ background-color:aquamarine;
+ transform:rotateX(180deg)
+}
+.yazi2{
+ background-color:yellow;
+ transform:rotateY(180deg);
+}
+/* kartın iki tarafından okunan bir yazı düşünün, x ekseninde 180deg=kartı başaşağı getirmek. y ekseninde 180deg=kartı arkasına çevirme. 90deg kartı yarım çevirme olacağı için dik bir çizgi gözükür yazı okunmaz   */
+/*! 90 ve 270 derecelerde yazılar tam dik olduklarından ve 3-boyutlu olarak bakamadığımız için gözükmezler */
+.yazi3{
+ background-color: purple;
+ transform:rotate(-45deg);
+
+}
+
+/******************SCALE******************/
+.yazi4{
+ background-color: green
+}
+
+.yazi4:hover{
+ transform:scaleX(2) scaleY(0.5);
+}
+.yazi5{
+ background-color: rgb(63, 226, 63)
+}
+
+.yazi5:hover{
+ transform:scale(0.5,2)
+}
+/******************TRANSİTİON******************/
+
+.transition{
+ text-align: center;
+}
+
+.btn{
+ font-size:2rem;
+ padding:0.5rem;
+ transition:background-color 1s, color 5s, font-size 4s;
+}
+.btn:hover{
+background-color:burlywood;
+color:white;
+font-size:5rem;
+}
+
+/******************TRANSLATE******************/
+
+.transform{ width: 100px;
+  height: 50px;
+  background-color: rgb(221, 100, 237);
+  color: white;
+  text-align: center;
+  margin: 50px;
+  padding: 10px;
+ transition:transform 5s;
+ }
+
+ /* .x{transition:transform 5s;}
+.y{transition:transform 10s;} */
+
+
+  .x:hover{
+   transform: translateX(50px);
+  }
+  .y:hover{
+   transform:translateY(-100px);
+  }
+  .xy:hover{
+   transform:translate(50px,-50px);
+  }

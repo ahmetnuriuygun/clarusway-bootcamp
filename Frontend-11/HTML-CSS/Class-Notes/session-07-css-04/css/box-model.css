@@ -1,0 +1,25 @@
+div.box {
+  font-size: 2rem;
+  text-align: center;
+ 
+  background-color: burlywood;
+  border: 15px solid red;
+  padding: 50px;
+  margin: 20px 85px;
+width: 300px;
+height: 300px;
+  box-sizing: border-box;
+  /* border da dahil */
+}
+/* width ve height vermezsen (box-sizing: border-box; versende vermesende) default olarak bütün yazılar paddingler kutuya sığar, yazı arttıkça kutu büyür. mesela width:300 ve height:300 verirsen, defaultta yazıya (verdiğin değeri) 300x300 ayırır (sığdığı kadar) paddingleride extra büyütür (alttan yazı taşmış gibi gözükür ama incelersen yazıya height kadar yer ayırıp padding vermiştir) üstüne birde box-sizing: border-box verirsen kutunun tamamı 300x300 olur yazı da padding de border da bu ölçüye sığmaya çalışır, sığmayan taşar (font küçültmek gerek) */
+.content{    
+  font-size: 2rem;
+  text-align: center;
+  width: 300px;
+  height: 300px;
+  background-color: burlywood;
+  border: 15px solid red;
+  padding: 50px;
+  margin: 20px;
+}
+  /* 300x300 yazıya ayırır (yazı sığdığı kadar) üstüne padding ekler border ekler, sonuc 300+50*2+15*2=430 */

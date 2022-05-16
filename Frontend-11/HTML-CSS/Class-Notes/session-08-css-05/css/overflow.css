@@ -1,0 +1,42 @@
+.box{
+
+border:2px solid red;
+height:5rem;
+width:20rem;
+margin-bottom:20rem;
+}
+
+.first{
+ overflow:visible;
+ /* içerik kırpılmaz ve dolgu kutusunun dışında oluşturulabilir. */
+}
+
+.second{
+
+ overflow:hidden;
+}
+/* .second:hover{
+ overflow:visible;
+} */
+
+.third{
+
+ overflow:auto;
+  /* İçerik dolgu kutusunun içine sığarsa visible ile aynı görünür,
+  içerik taşarsa kaydırma çubukları sağlar. */
+}
+
+.fourth{
+
+overflow:scroll;
+/* çerçeveli gibi aşağı yukarı kaydırma roller ı.
+  Dolgu kutusuna sığması için gerekirse içerik kırpılır. Tarayıcılar, herhangi bir içerik gerçekten kırpılmış olsun veya olmasın her zaman kaydırma çubuklarınının yerini görüntüler  ve içerik değiştikçe kaydırma çubuklarının görünmesini veya kaybolmasını sağlar. mesela sağa giden yazı varsa x ekseninde kaydırma çubuğu olur (auto dan farkı, auto taşma yoksa çubuk kutusu göstermez)*/
+}
+
+.fifth {
+  overflow-x: hidden; 
+  /* x ekseninde çubuk gerektiği halde gözükmesin */
+  overflow-y: scroll; 
+  /*alttaki par sayesinde, x  ekseninde çubuk olur. 
+  overflow-x ve overflow-y özellikleri, içeriğin taşmasının sadece yatay mı yoksa dikey mi (veya her ikisi) mi değiştirileceğini belirtir.  */
+}

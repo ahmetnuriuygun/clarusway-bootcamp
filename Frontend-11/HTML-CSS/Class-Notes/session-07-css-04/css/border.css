@@ -1,0 +1,48 @@
+.container,
+.container1 {
+  margin: 1rem;
+}
+
+
+.msg{
+ display: inline-block;
+ /* ekran küçükken üstüste binişiyorlar padding verince, bunu önlemek için inline-block */
+ margin:1rem;
+}
+
+.msg1{
+ border:3px solid red;
+}
+
+.msg2{
+ border:4px dashed red;
+}
+.msg3{
+ border-right:2px solid green;
+ border-left:5px solid red;
+}
+
+.msg4{
+ border:5px dotted blue;
+ background-color:red;
+ border-radius: 5px 0;
+ /* sol üst köşeden başlar sırayla sağ üst... */
+ padding:2rem;
+}
+
+.msg5{
+  border:2px solid;
+  background-color:hsl(127, 47%, 48%)
+
+}
+.msg6{
+  border:2px solid pink;
+  border-radius:30%
+}
+.msg7{
+ border:3px solid gray;
+ border-radius: 50%;
+padding:2rem;
+width:5rem;
+height:5rem;
+}

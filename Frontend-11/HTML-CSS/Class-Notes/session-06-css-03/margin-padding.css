@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+}
+.btn {
+  background-color: beige;
+  margin: 1rem;
+  padding: 1rem 0; /*üst alt padding = 1 rem */
+}
+.btn:last-child {
+  margin-bottom: 2rem;
+}
+
+.span-btn {
+  background-color: burlywood;
+  padding: 0.5rem;
+  /** inline old için padding i büyüt, alt üst element lere bulaşıyor */
+  margin-left: 1rem;
+  /*? her taraftan margin ver,inline old için alt üst işlemiyor */
+}
+
+.new-btn {
+  background-color: crimson;
+  padding: 2rem 1rem;
+  /*! Bir blok elemanı yatay olarak ortalamak için x ekseninde otomatik margin vermek yeterlidir.*/
+  margin-top: 2rem;
+  
+  margin-right: auto;
+  margin-left: auto;
+  /*! Kısa yol olarak 
+  /*! margin: 2rem auto; */
+  width: 20vw;
+  /* vw ekran büyüdükçe görünüm büyür, yani div gibi tamamını kaplamaz, ekran ne kadarsa onun yüzde 20 si olur */
+  text-align: center;
+}
+

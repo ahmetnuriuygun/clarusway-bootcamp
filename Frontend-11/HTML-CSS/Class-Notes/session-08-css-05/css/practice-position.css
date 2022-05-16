@@ -1,0 +1,63 @@
+body{
+ font-family:"Nunito Sans",sans-serif;
+ margin:0;
+}
+
+.navbar-mor{
+ background-color: #8865a7;
+ /* font-weight: 500; */
+}
+
+.menu a{
+color:white;
+ text-decoration:none;
+ font-weight:500;
+ font-size:20px;
+}
+.menu{
+ color:white;
+
+ position:absolute;
+ top:2.5rem;
+ right:2rem;
+}
+
+.menu a:hover {color:black;
+
+}
+.navbar-turuncu{
+ background-color: #ffaa53;
+ padding:2rem;
+text-align: center;
+position:sticky;
+top:0;
+
+}
+.navbar-turuncu a{
+ text-decoration: none;
+ color:black;
+ font-weight:800;
+ margin:0 3rem;
+}
+.navbar-turuncu a:hover{
+ color:white;
+}
+
+.slack{
+ /* icon lar text gibi stil alır */
+ background-color: red;
+ width:2rem;
+ height:2rem;
+ font-size:1.6rem;
+ color:white;
+border-radius: 50%;
+text-align:center;
+padding:0.2rem;
+
+position:fixed;
+right:1rem;
+bottom:1rem;
+}
+main{
+ margin-left:1rem;
+}

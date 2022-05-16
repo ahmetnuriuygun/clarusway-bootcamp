@@ -1,0 +1,39 @@
+*{
+ text-align: center;
+ color:white;
+}
+
+
+
+header.banner .bg{
+height:20rem;
+
+/* lorem picsum, random resim adresi */
+  background-image: url('https://picsum.photos/200');
+    background-size: cover;
+  /* ekran büyükken ekranı tamamen sar, kapla,gerekirse kırp */
+  background-repeat:no-repeat;
+  /* tek bir tane resim yerleştir (boyutu cover değilde mesela 20px 20px verince bir sürü resim sığabilir, no-repeat dersek küçük 1 tane resim görünür). cover yazınca repeat komutu önemini yitiriyor. */
+
+  background-position: center center;
+  /* resim tam ortalansın ekran büyüdükçe resim büyümesin alt üst ortalı gözüksün, top = tepesi çok gözüksün, bottom= alt tarafı çok gözüksün */
+}
+
+ .butonlar  span{
+background-color: gray;
+width:4rem;
+height:1rem;
+display:inline-block;
+margin:1rem;
+ }
+
+h1{
+ font-size:3rem;
+}
+p{
+ font-size: 1.5rem;
+}
+
+ .butonlar span:hover{
+  background-color:lightgray;
+ }

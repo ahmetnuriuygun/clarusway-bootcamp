@@ -1,0 +1,74 @@
+* {
+  /* margin: 0; 
+  box-sizing: border-box; */
+}
+.box {
+  width: 20vw;
+  height: 20vh;
+}
+
+/*Relative'de bulunduğu yere (normalde olması gerektiği yere göre) göre konum belirlenebilir*/
+.box1 {
+  position: relative;
+  background-color: aquamarine;
+  left: 2rem;
+  top: 3rem;
+  /* marginleri vermezsem box lar altalta dizilir,relativeler.ben margin vererek onu bozuyorum */
+  z-index: 3;
+}
+/* z-index ile bir element'i diğerinin üzerine koyabilmek için o elementlerin position'ları static olMAMAlıdır. sayı büyük olan üsttedir,ardışık olmaları yeterli*/
+
+.box2 {
+  position: absolute;
+  background-color: blueviolet;
+  top: 3rem;
+  z-index: 2;
+  /* *'ye margin:0 ayarlamadan önce relative ve absolute marginleri aynı olsun farkı gör */
+   /* absolute=body ye göre yerleşir, relative=üst elemente göre, üstüyle aynı marginleri alırsa tam alt alta gelir*/
+  left: 2rem;
+  color:white;
+}
+.box3{
+  background-color: yellow;
+  position: relative;
+  /* absolute=browser a ye göre yerleşir, relative=parent ına göre, burada body ye göre */
+   left: 3rem;
+  top: 3rem;
+  /* marginlerle olması gereken yerden bu kadar kıpırdatıyorum */
+  
+  z-index: 4;
+}
+
+.absolute-parent {
+  width: 25vw;
+  height: 25vh;
+  border: 5px solid aqua;
+  position: absolute; /*absolute= body ye göre sağdan 1rem üstten 1rem boşluk olsun.relative verirsek body elementine göre şekil alacağı için right 1 rem, olması gereken yerden 1rem right dan boşluk ver, yani sola kay demek olur*/
+  top: 1rem;
+  right: 1rem;
+}
+
+.dort {
+
+  background-color: coral;
+    position: absolute;
+  /* parentına göre yerleşir (absolute-parent ın sol üstünü başlangıç alır) */
+  top: 1rem; 
+  left: 1rem;
+}
+
+.box4 {
+  position: fixed;
+  /* olduğu yerde kalır */
+  background-color: darkcyan;
+  right: 1rem;
+  bottom: 1rem;
+}
+
+.box5 {
+  background-color: pink;
+  position: sticky;
+  /* top vermelisin, verdiğin değer kadar olunca sabitlenir */
+  top: 5px;
+  margin: 1rem auto;
+}

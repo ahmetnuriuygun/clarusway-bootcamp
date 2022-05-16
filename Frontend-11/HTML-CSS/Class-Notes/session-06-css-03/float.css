@@ -1,0 +1,30 @@
+img {
+  width: 50%;
+  float: left;
+   /* ile sola yapıştırınca,altındaki eleman yanına çıkmış oluyor */
+
+  padding:0 3rem 3rem 0;
+}
+
+.box {
+  float: left;
+   /* bu sayede box lar yanyana, margin vermezsek bitişik */
+  height: 2rem;
+}
+.box1 {
+  background-color: purple;
+  width: 20%;
+}
+.box2 {
+  background-color: cornflowerblue;
+  width: 30%;
+}
+.box3 {
+  background-color: coral;
+  width: 40%;
+}
+
+.clearfix {
+  clear: left;
+  /* clear: left yazmazsak alttaki elemanlar sığdığı kadar img nin yanına gelmeye devam eder */
+}

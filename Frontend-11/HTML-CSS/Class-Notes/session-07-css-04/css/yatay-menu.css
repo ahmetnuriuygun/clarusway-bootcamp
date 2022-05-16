@@ -1,0 +1,46 @@
+/*! Yatay- Menu*/
+
+.yatay-menu ul {
+  list-style-type: none;
+}
+
+.yatay-menu ul li {
+  background-color: bisque;
+  text-align: center;
+  width: 8rem;
+  height: 5rem;
+  display: inline-block;
+
+  margin-right: 0.5rem;
+}
+
+a {
+  padding: 1rem;
+  background-color: red;
+  text-decoration: none;
+  display: inline-block;
+  /* alttan üstten mantıklı işleyen padding verebilmek için ve a ların hepsi aynı boy (parent ı olan li kadar) olsun diye*/
+  width: 6rem;
+}
+
+/*? active kullanmak istiyorsak ya hover dan sonra yazacağız, ya da  spesific selector yapıcaz (babasının adını yazmak) */
+
+li a:active {
+  color: red;
+}
+a:hover {
+  background-color: coral;
+  color: white;
+}
+
+
+/** Acılır Menu*/
+
+.acılır-menu ul {
+  display: none;
+  /* normalde gözükmesin */
+}
+.acılır-menu:hover ul{
+ display: block;
+ /* mouse üzerine gelince gözüksün. mouse h3 ün üzerine gelecek, ul gözükecek, hepsinin bulunduğu yer nav, o yüzden nav da hover, açılmasını istediğim ul */
+}

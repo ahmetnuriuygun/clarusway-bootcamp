@@ -1,0 +1,46 @@
+p {
+  height: 10vh;
+}
+
+p.header1 {
+  background-image: linear-gradient(yellow, green);
+}
+
+p.header2 {
+  background-image: linear-gradient(
+    rgb(240, 219, 27),
+    rgb(115, 228, 23),
+    hsl(255, 40%, 40%)
+  );
+}
+
+p.header3 {
+  background-image: linear-gradient(
+    to right,
+    rgb(240, 219, 27),
+    rgb(115, 228, 23),
+    rgb(10, 13, 58)
+  );
+  /* soldan sağa sarı, yeşil koyu yeşil,bunu demezsek üstten alta oluyor */
+}
+
+p.header4 {
+  background-image: linear-gradient(45deg, rgb(240, 219, 27), green, blue);
+}
+
+p.header5 {
+  /* Radyal = renk geçisi ortadan (merkezden) başlar. */
+
+  background-image: radial-gradient(
+    rgb(240, 219, 27) 20%,
+    rgb(115, 228, 23),
+    50%,
+    rgb(10, 58, 51)
+  );
+}
+
+p.header6 {
+  /* tekrarlı renk geçişi */
+  background-image: repeating-radial-gradient(
+    yellow, green 10%, blue 15%);
+}
