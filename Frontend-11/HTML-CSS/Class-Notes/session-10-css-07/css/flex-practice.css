@@ -1,0 +1,96 @@
+/*! kendi css imi çağırayım */
+
+@import 'variable.css';
+
+body{
+ font-family: var(--ff-monteserrat);
+ margin:0;
+ font-weight: 600;
+ box-sizing: border-box;
+
+}
+
+nav{
+ margin-top:0.5rem;
+ display:flex;
+ align-items: center;
+ /* justify-content: space-between; */
+ /* bu şekilde paddinglerle de istediğim görüntüyü elde ederim ama göz kararı uğraşırım */
+}
+
+nav .left,
+nav .middle,
+nav .right {
+  flex-grow: 1;
+ 
+  /**elemanların büyümesine izin ver*/
+  /* nav a justify vererekte boşluklu ortalayabilirdik ama 3 parçada cürmü kadar yer kaplardı */
+  flex-basis: 0;
+  /*!Tüm elemanların eşit miktarda alan tutabilmesine izin ver.3 tane div browser da 3 parçada duracak, bunu vermezsek ekran küçülse de ortadaki yazılar cürmü kadar yer alıp alta inmiyor, eleman çoğaltsakta nav daki yer tamamen bitince iniyor, diğerlerinden daha çok yer kaplıyor*/
+  
+}
+
+
+
+nav .left{
+background-color:var(--gri-8);
+box-shadow: var(--açık-gölge);
+border:1px solid black;
+
+}
+
+nav .left img{
+ width:40px;
+ height:40px;
+}
+
+
+
+
+
+nav .middle{
+background-color:var(--mavi-10);
+
+box-shadow: var(--koyu-gölge);
+
+border-radius:10px;
+text-align:center;
+}
+nav .item{
+ display:inline-block;
+ padding:16px;
+text-decoration: none;;
+color:black;
+transition:background-color 5s, color 1s;
+
+}
+
+
+
+nav .middle .item:hover{
+background-color:var(--mavi-6);
+color:white;
+border-radius:10px;
+
+}
+
+
+
+
+
+nav .right{
+
+background-color:var(--mavi-7);
+box-shadow: var(--açık-gölge);
+font-size: 40px;
+border:1px solid black;
+text-align: right;
+}
+ nav .right i{
+  color:black;
+ }
+
+ nav .right i:hover{
+
+  font-size: 60px;
+ }
