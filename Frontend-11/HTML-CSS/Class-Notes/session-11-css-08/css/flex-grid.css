@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  border: 1px solid rgb(213, 159, 59);
+  text-align: center;
+}
+
+.container {
+  /* width: 100%; */
+}
+
+.row {
+  
+  display: flex;
+  /* flex-wrap: wrap; */
+  height: 100px;
+}
+.container:nth-child(odd){background-color:lightgray}
+
+.container:nth-child(even){background-color:lightpink}
+
+
+
+.col-1 {
+  /* default büyüme | default küçülme | herkese ihtiyacı kadar yer paylaştır (eşit değil) */
+  /* yüzde ile width verdiğim için flex e gerek yok ama best practice */
+  /* flex: 0 0 auto; */
+  width: 8.333333%;
+}
+
+.col-2 {
+  
+  /* flex: 0 0 auto; */
+  width: 16.666667%;
+}
+
+ .col-3 {
+   
+  /* flex: 0 0 auto; */
+  width: 25%;
+}
+
+.col-4 {
+  /* flex: 0 0 auto; */
+  width: 33.333333%;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+}
+
+.col-5 {
+  /* flex: 0 0 auto; */
+  width: 41.666667%;
+}
+
+.col-6 {
+  
+  /* flex: 0 0 auto; */
+  width: 50%;
+}
+
+.col-7 {
+  flex: 0 0 auto;
+  width: 58.333333%;
+}
+
+.col-8 {
+  flex: 0 0 auto;
+  width: 66.666667%;
+}
+
+.col-9 {
+  flex: 0 0 auto;
+  width: 75%;
+}
+
+.col-10 {
+  flex: 0 0 auto;
+  width: 83.333333%;
+}
+
+.col-11 {
+  flex: 0 0 auto;
+  width: 91.666667%;
+}
+
+.col-12 {
+  flex: 0 0 auto;
+  width: 100%;
+} 

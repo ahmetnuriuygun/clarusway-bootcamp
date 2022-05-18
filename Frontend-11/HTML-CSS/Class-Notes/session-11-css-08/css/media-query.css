@@ -1,0 +1,116 @@
+@import 'variable.css';
+
+*{
+ margin: 0;
+ box-sizing: border-box;
+font-family: var(--ff-monteserrat);
+font-weight: 500;
+}
+
+body{
+ background-color:var(--mavi-10);
+
+}
+
+h1{
+ background-color:var(--koyu-kırmızı);
+
+ border:2px solid black;
+ width:300px;
+ padding:10px;
+ border-radius:50px;
+ text-align:center;
+ margin:1rem auto;
+}
+
+.header{
+
+ background-color:var(--koyu-yeşil);
+ padding:20px;
+ margin:20px 0;
+
+}
+
+.navbar{
+
+ background-color:var(--gri-3 );
+ 
+ text-align:end;
+}
+.navbar a{
+ display:inline-block;
+ color:white;
+ text-decoration: none;
+ padding:15px 20px;
+}
+
+.row{
+ display:flex;
+ flex-wrap:wrap;
+ width:100%;
+text-align:center;
+
+}
+.col{
+
+ padding:20px;
+}
+.col-1{
+ background-color:var(--gri-5);
+ width:35%;
+}
+.col-2{
+ background-color:var(--gri-6);
+ width:20%;
+}
+.col-3{
+ background-color:var(--gri-7);
+ width:30%;
+}
+.col-4{
+ background-color:var(--gri-8);
+ width:15%
+}
+
+
+
+
+
+/*! üstteki stiller büyük ekranlarda kullanılsın ta  ki 992px e kadar (tablete kadar). 992px den itibaren bir alttaki stiller kullanılsın */
+@media screen and (max-width:992px){
+
+body{
+
+ background-color:var(--açık-kırmızı);
+ color:white;
+}
+/* .col-1,.col-2, .col-3,.col-4 */
+.col {
+ width:50%;
+margin:0.5rem 0;
+}
+}
+
+
+
+
+
+/*! 600px e kadar üstteki kullanılmaya devam etsin, 600px den itibaren (cep telefonu) alttaki stiller kullanılsın */
+@media screen and (max-width:600px){
+
+body{
+ background-color:var(--mor-1);
+}
+.header{
+ display:none;
+}
+.navbar a{
+text-align:center;
+ display:block;
+}
+.col{
+ width:100%;
+}
+
+ 
+}
