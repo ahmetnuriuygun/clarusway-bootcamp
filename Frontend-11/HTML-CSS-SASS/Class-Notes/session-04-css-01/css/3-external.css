@@ -1,0 +1,19 @@
+*{
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+ p{
+color:blue;
+
+ }
+.par{
+ color:aqua;
+}
+.center p span {
+ text-align:center;
+ color:chartreuse;
+}
+a{
+
+ color:blueviolet;
+}

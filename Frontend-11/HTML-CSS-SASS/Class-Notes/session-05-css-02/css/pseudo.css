@@ -1,0 +1,67 @@
+
+table{
+ border-collapse: collapse;
+
+}
+
+.liste tr:nth-child(odd){
+ background-color:pink;
+ color:yellow;
+}
+
+.liste td:first-child{
+font-weight:900;
+
+}
+.liste td:last-child{
+font-style: italic;
+
+}
+.liste tr:nth-child(3){
+ background-color:red;
+ color:aquamarine;
+}
+
+.liste tr:nth-child(3)::after,
+.liste tr:nth-child(3)::before{
+ font-family: "Font Awesome 5 Free"; 
+ font-weight: 900;
+content: "🎗️";
+color:green;
+}
+
+
+.liste tr::before,
+.liste tr::after{
+
+ content: "💛";
+ color:orange;
+ font-size:30px;
+ /* content:"\f004"; */
+
+}
+
+td:hover{
+ background-color:lightgreen;
+}
+
+/* tr:hover{
+ background-color:gray;
+} */
+/* row lara hover olunca stil vermek istiyorsam, kimseye spesific stil vermemiş olmam gerekir */
+
+
+
+a:visited{
+color:orange;
+}
+
+a:active{
+ color:cyan;
+}
+a:hover{
+font-size: 50px;
+background-color:red;
+
+
+}

@@ -1,0 +1,106 @@
+body {
+  color: black;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+nav {
+  padding: 10px;
+  background: rgb(81, 81, 212);
+}
+
+aside {
+  background: yellow;
+  float: left;
+  width: 25%;
+  height: 1000px;
+}
+
+main {
+  float: left;
+  width: 75%;
+  height: 70%;
+  background-color: antiquewhite;
+}
+
+
+header {
+  background-color: red;
+  color: aliceblue;
+  padding: 40px;
+   height: 50px;
+  padding: 50px;
+  margin-bottom: 10px;
+}
+
+nav {
+  background-color: rgb(7, 172, 172);
+  padding: 20px;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+footer {
+  background-color: black;
+  color: aliceblue;
+  padding: 20px;
+  display:flex;
+  justify-content:bottom;
+  width: 97%;
+  padding-left: 500px;
+  
+} 
+
+
+/*--------------------------------------------*/
+
+.nav {
+  padding: 10px;
+  background: rgb(81, 81, 212);
+}
+
+.aside {
+  background: yellow;
+  float: left;
+  width: 25%;
+  height: 1000px;
+}
+
+.main {
+  float: left;
+  width: 75%;
+  height: 70%;
+  background-color: antiquewhite;
+}
+
+.header {
+  background-color: red;
+  color: aliceblue;
+  padding: 40px;
+   height: 50px;
+  padding: 50px;
+  margin-bottom: 10px;
+}
+
+.nav {
+  background-color: rgb(7, 172, 172);
+  padding: 20px;
+}
+
+.nav a {
+  text-decoration: none;
+}
+
+.footer {
+  background-color: black;
+  color: aliceblue;
+  padding: 20px;
+  display:flex;
+  justify-content:bottom;
+  width: 97%;
+  padding-left: 500px;
+  
+} 

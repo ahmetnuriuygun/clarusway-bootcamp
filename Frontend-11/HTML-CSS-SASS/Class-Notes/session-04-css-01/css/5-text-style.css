@@ -1,0 +1,62 @@
+* {
+  font-family: sans-serif;
+  /* background-image: url("../../assets/img/winter1.jpg"); */
+}
+
+
+h1{
+
+ color:rgb(199, 14, 224);
+/* color:hsl(297, 100%, 53%); */
+
+/* text-decoration:line-through;
+text-decoration:overline;
+text-decoration:underline;
+text-decoration-style: dotted;
+text-decoration-style:wavy;
+text-decoration-style:dashed;
+text-decoration-color: green; */
+
+/*? toplu stil */
+
+text-decoration: blue underline overline wavy 8px;
+
+/* text-transform: capitalize; */
+/* text-transform: lowercase; */
+    text-transform:capitalize;
+            /* lowercase=hepsini küçült  uppercase=hepsini büyüt, capitalize=başharflerini büyüt */
+            text-align:center;
+            /* left=start=başa alır, right=end =sona yapıştırır */
+            word-spacing: 15px;
+            /* kelimeler arası boşluk */
+            letter-spacing: 5px;
+            /* harfler arası boşluk */
+        }
+
+
+p{
+text-indent:20px ;
+/* satır başlarına boşluk */
+letter-spacing: 3px;
+word-spacing:5px;
+line-height: 30px;
+
+}
+li{
+ background-color:green;
+}
+.tatlı{ 
+ list-style-position: inside;
+/* oklar bir tık sağa kayıyor */
+ list-style-type:"💛";
+
+ list-style-image: url(../img/arrow-right-long-solid.svg);
+/* image, type e göre daha baskın bir stil */
+ list-style-type: square;
+/* list-style:square inside url('../assets/arrow-right-long-solid.svg'); */
+}
+h3{
+ /* text-align: end; */
+ direction:rtl;
+ /* sağa yapıştır sağdan başla */
+}

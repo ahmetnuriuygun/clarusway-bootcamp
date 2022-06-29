@@ -1,0 +1,36 @@
+@import "variables";
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: $arkaRengi;
+    .brand{
+
+        img{
+            width:80px;
+            border:$borderRengi;
+            border-radius: 30%;
+            margin:10px;
+
+        }
+    }
+}
+
+.navbar{
+    ul{
+        list-style-type: none;
+        display:flex;
+        li{            
+            a{
+                text-decoration: none;
+                padding:5px;
+                color:black;
+                font-size: $linkBoyutu;
+                
+            }
+            input{
+                width:70%;
+            }
+        }
+    }
+}

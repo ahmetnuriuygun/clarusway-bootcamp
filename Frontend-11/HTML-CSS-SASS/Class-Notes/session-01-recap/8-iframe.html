@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IFRAME-AUDIO-VIDEO</title>
+  </head>
+  <body>
+    <!-- controls=çalıştırma düğmesi olsun diye -->
+    <h1>IFRAME</h1>
+    <div>
+      <audio controls src="./assets/muzik.mp3" style="width: 80%"></audio>
+      <!-- autoplay=1 attribute ü eklersek, sayfa render edildiğinde otomatik çalmaya başlar -->
+    </div>
+
+    <div>
+      <video controls src="./assets/Su.mp4"></video>
+    </div>
+
+    <div>
+      <iframe
+        width="640"
+        height="360"
+        src="https://www.youtube.com/embed/RWTO3p0RIuA"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+      <!-- allowfullscreen=video çalıştığında tam ekrana izin ver .
+   frameborder="1"==etrafına borderçerçevesi ver .picture-in-picture=Mobil cihazınızda diğer uygulamaları kullanırken YouTube videolarını izlemenizi sağlar. autoplay=1 Sayfa yüklenir yüklenmez videonun oynatılmasına neden olur. accelerometer=hız ayarı-->
+      <div>
+        <iframe
+          src="https://clarusway.com/"
+          frameborder="1"
+          width="500px"
+          height="400px"
+        ></iframe>
+        <!-- başka bir  siteyi direk bu sayfaya bastık -->
+      </div>
+    </div>
+  </body>
+</html>

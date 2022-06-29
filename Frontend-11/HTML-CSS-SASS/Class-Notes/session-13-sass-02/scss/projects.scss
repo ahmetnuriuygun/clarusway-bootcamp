@@ -1,0 +1,34 @@
+.projects{
+    &__bio-image{
+        height:40vh;
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background:linear-gradient(to right,rgba($primary-color,0.9),rgba($primary-color,0.4)),   
+        url(../img/model-1.jpg) center top;
+        background-size: cover;
+        
+        .text-secondary{
+            color:$secondary-color
+        }
+
+    }
+    &__items{
+        width: 60%;
+        margin: 2rem auto 0 auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 2rem;
+    }
+
+    &__item{
+        img{
+            width: 100%;
+
+        }
+        border-bottom: 5px solid $secondary-color;
+        background: $secondary-color;
+    }
+}

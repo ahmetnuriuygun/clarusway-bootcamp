@@ -1,0 +1,39 @@
+*{
+ font-family: "Roboto";
+ color: whitesmoke
+}
+
+nav.menu li {
+ background-color: gray;
+ 
+}
+
+.menu .list .aktif {
+
+
+ background-color:black;
+}
+
+.menu .list .aktif:hover{
+background-color:pink;
+
+}
+
+.menu .list{
+ list-style-position: inside;
+ list-style-type:"✅";
+}
+.menu .list a{
+
+ text-decoration: none;
+ font-weight: bold;
+ font-size:25px;
+}
+
+nav.menu li:hover{
+background-color:red;
+}
+
+a:hover{
+ color:yellow;
+}

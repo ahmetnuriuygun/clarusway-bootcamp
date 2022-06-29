@@ -1,0 +1,65 @@
+@import "navbar","variables","slider";
+
+.container{
+    margin: 0 auto;
+    width: 80%;
+    background-color: burlywood;
+
+}
+
+@mixin kutu($kutuRengi,$yaziRengi){
+    background-color: $kutuRengi;
+    color:$yaziRengi;
+
+    width:20%;
+    height: 200px;
+    margin:10px;
+    border:$borderRengi;
+    border-radius: 10px;
+    padding:10px;
+
+}
+.content{
+    .cards{
+        .card1{
+            @include kutu(brown,white);
+    } 
+        .card2{
+            @include kutu(#252631, white);
+        }
+        .card3{
+            @include kutu(cadetblue,yellow);
+
+        }
+        .card4{
+            @include kutu(#247482,#141414)
+        }
+    }
+}
+.article{
+    .articles{
+        .article1{
+            width: 50px;
+            height: 200px;
+            background-color: gray;
+            border: $borderRengi;
+            border-radius: 10px;
+            padding: 10px;
+        }
+        .article2{
+            @extend .article1;
+        }
+    }
+}
+$test:1;
+.footer{
+    @if $test>3{
+        background-color: brown;
+    }
+    @else if $test<3{
+        background-color: greenyellow;
+    }
+    @else if $test==3{
+        background-color: pink;
+    }
+}

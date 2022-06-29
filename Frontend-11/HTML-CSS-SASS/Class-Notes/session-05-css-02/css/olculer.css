@@ -1,0 +1,47 @@
+*{
+ margin:0;
+}
+
+
+.dede{
+ background-color: aqua;
+ width:50%;
+
+height:50vh;
+}
+.baba{ 
+ background-color:red;
+height:50%;
+ width:50%;
+}
+.torun{
+ background-color:orange;
+ width:50vw;
+ /* height:50vh; */
+  
+}
+/* viewport ölçüleri parenttan bağımsız çalışır(vw=width, vh=height). % ölçü birimi element in kapsaması gereken ölçüye göre çalışır mesela bir div ne kadar yer kaplayacaksa 50% ile onun yarısını alırsınız, yada parent a bir height width verdiniz, ona göre şekillenir. px ve % =margin lerden arta kalan yeri anlar, viewport bütün ekranı (50vw=ekranın yüzde 50 si) */
+
+
+
+.anane{
+ font-size:3em; /*!3em=48px*/
+ color:orange;
+ 
+}
+.anne{
+ font-size:0.5em;
+  /*child daki 3em, parent ın 2 katı demek, 0.5 dersek yarısı */
+  color:aqua;
+}
+.kız{
+ font-size:2em;
+ /* font-size:30px; */
+}
+
+.div1{
+font-size:2rem;
+}
+.div2{
+font-size:2rem;
+}

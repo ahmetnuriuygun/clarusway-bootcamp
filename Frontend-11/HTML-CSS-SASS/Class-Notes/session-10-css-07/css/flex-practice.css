@@ -1,0 +1,62 @@
+/*! kendi cssimi cagirma */
+@import 'variable.css';
+
+body{
+    font-family: var(--ff-monteserrat);
+    margin: 0;
+    font-weight: 600;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    align-items: center;
+    
+}
+nav .left, nav .middle, nav .right{
+    flex-grow: 1;
+    flex-basis: 0;
+}
+nav .left{
+    background-color: var(--gri-8);
+    box-shadow: var(--koyu-gölge);
+    border: 1px solid black;
+}
+nav .left img{
+    width: 40px;
+    height: 40px;
+}
+nav .middle{
+    background-color: var(--mavi-10);
+    box-shadow: var(--koyu-gölge);
+    border-radius: 10px;
+    text-align: center;
+}
+.item{
+    text-decoration: none;
+}
+nav .right{
+    background-color: var(--mavi-7);
+    box-shadow: var(--açık-gölge);
+    font-size: 40px;
+    border: 1px solid black;
+    text-align: end;
+}
+nav .item{
+    display: inline-block;
+    padding: 16px;
+    text-decoration: none;
+    color: black;
+    transition: background-color 5s, color1s;
+    
+}
+nav .right a i{
+    color: black;
+}
+nav .middle .item:hover{
+    background-color: var(--mavi-6);
+    color: white;
+    border-radius: 10px;
+}
+nav .right i:hover{
+    font-size: 60px;
+}
