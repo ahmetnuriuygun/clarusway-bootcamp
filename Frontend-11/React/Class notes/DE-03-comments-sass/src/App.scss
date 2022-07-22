@@ -1,0 +1,17 @@
+@import "./scss/buttons";
+@import "./scss/reset","./scss/variable";
+
+body{
+
+ font-family:"Segoe UI",Tahoma,Genova,Verdana,sans-serif;
+}
+h1{
+ color:red;
+}
+h2{
+ color:green;
+ font-size:20px
+}
+p{
+ font-size: 14px;
+}

@@ -1,0 +1,24 @@
+@import "./variable";
+
+
+.btn-container{
+
+display:flex;
+justify-content: center;
+
+button {
+color:white;
+margin-top:5px;
+border-radius:5px;
+
+}
+&--small{
+background-color:$darkestGreen;
+padding:5px;
+}
+
+&--large{
+background-color:$darkGreen;
+padding:5px;
+}
+}

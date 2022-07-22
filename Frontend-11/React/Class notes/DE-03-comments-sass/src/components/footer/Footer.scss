@@ -1,0 +1,15 @@
+@import "../../scss/variable";
+
+footer{
+padding:1rem;
+background-color:$darkestGreen;
+position:fixed;
+bottom:0;
+left:0;
+right:0;
+p{
+ text-align:center;
+ color:$lightPink
+}
+
+}
